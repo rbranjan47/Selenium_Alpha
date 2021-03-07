@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-08T01:28:56 IST" name="Default suite" finished-at="2021-03-08T01:29:16 IST" duration-ms="19413">
+  <suite started-at="2021-03-08T01:38:02 IST" name="Default suite" finished-at="2021-03-08T01:38:21 IST" duration-ms="18939">
     <groups>
     </groups>
-    <test started-at="2021-03-08T01:28:56 IST" name="Default test" finished-at="2021-03-08T01:29:16 IST" duration-ms="19413">
+    <test started-at="2021-03-08T01:38:02 IST" name="Default test" finished-at="2021-03-08T01:38:21 IST" duration-ms="18939">
       <class name="raBi_maven.extent_report.HighLighting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:raBi_maven.extent_report.HighLighting@28f2a10f]" started-at="2021-03-08T01:28:56 IST" name="setup" finished-at="2021-03-08T01:29:04 IST" duration-ms="8287" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:raBi_maven.extent_report.HighLighting@f736069]" started-at="2021-03-08T01:38:03 IST" name="setup" finished-at="2021-03-08T01:38:10 IST" duration-ms="7262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="highlightning()[pri:0, instance:raBi_maven.extent_report.HighLighting@28f2a10f]" started-at="2021-03-08T01:29:04 IST" name="highlightning" finished-at="2021-03-08T01:29:05 IST" duration-ms="90" status="PASS">
+        <test-method signature="highlightning()[pri:1, instance:raBi_maven.extent_report.HighLighting@f736069]" started-at="2021-03-08T01:38:10 IST" name="highlightning" finished-at="2021-03-08T01:38:10 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highlightning -->
-        <test-method is-config="true" signature="Exiting()[pri:0, instance:raBi_maven.extent_report.HighLighting@28f2a10f]" started-at="2021-03-08T01:29:05 IST" name="Exiting" finished-at="2021-03-08T01:29:16 IST" duration-ms="10969" status="PASS">
+        <test-method signature="screenShot()[pri:2, instance:raBi_maven.extent_report.HighLighting@f736069]" started-at="2021-03-08T01:38:10 IST" name="screenShot" finished-at="2021-03-08T01:38:10 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="Exiting()[pri:0, instance:raBi_maven.extent_report.HighLighting@f736069]" started-at="2021-03-08T01:38:10 IST" name="Exiting" finished-at="2021-03-08T01:38:21 IST" duration-ms="10947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Exiting -->

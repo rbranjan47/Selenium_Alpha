@@ -51,7 +51,7 @@ public class HighLighting
 		//Screen Shot of the Element
 				WebElement highlighted=driver.findElement(By.xpath("//img[@title='Show details for HTC One M8 Android L 5.0 Lollipop']"));
 				File logo_file=highlighted.getScreenshotAs(OutputType.FILE);
-				File location=new File("Demo_logo_ScreenShot.png");
+				File location=new File("highlighted.png");
 				
 				//Storing this file
 				FileUtils.copyFile(logo_file, location);
