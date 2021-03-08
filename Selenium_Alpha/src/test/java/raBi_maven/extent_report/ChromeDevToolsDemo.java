@@ -1,18 +1,18 @@
 package raBi_maven.extent_report;
 
-import static org.testng.Assert.assertEquals;
+//import static org.testng.Assert.assertEquals;
 
 import java.util.Optional;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chromium.ChromiumDriver;
-import org.openqa.selenium.devtools.Command;
+//import org.openqa.selenium.devtools.Command;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.Event;
+//import org.openqa.selenium.devtools.Event;
 import org.openqa.selenium.devtools.v84.network.Network;
-import org.openqa.selenium.devtools.v84.network.model.ConnectionType;
-import org.openqa.selenium.devtools.v84.network.model.LoadingFailed;
+//import org.openqa.selenium.devtools.v84.network.model.ConnectionType;
+//import org.openqa.selenium.devtools.v84.network.model.LoadingFailed;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
