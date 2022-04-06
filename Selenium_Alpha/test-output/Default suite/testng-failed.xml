@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="raBi_maven.extent_report.location_page">
+      <class name="raBi_maven.extent_report.ChromeDevToolsDemo">
         <methods>
-          <include name="newTab"/>
+          <include name="enablenetworkoffline"/>
         </methods>
-      </class> <!-- raBi_maven.extent_report.location_page -->
+      </class> <!-- raBi_maven.extent_report.ChromeDevToolsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
